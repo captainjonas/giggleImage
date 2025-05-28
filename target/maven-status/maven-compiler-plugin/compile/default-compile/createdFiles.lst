@@ -1,0 +1,12 @@
+com/giggle/image/config/RedisConfig.class
+com/giggle/image/service/ComfyUIService.class
+com/giggle/image/config/RestTemplateConfig.class
+com/giggle/image/controller/ImageGenerationController.class
+com/giggle/image/dto/ImageGenerationRequest.class
+com/giggle/image/service/impl/ComfyUIServiceImpl.class
+com/giggle/image/dto/TaskResponse$TaskResponseBuilder.class
+com/giggle/image/service/ComfyUIResultPoller.class
+com/giggle/image/model/ComfyUIWorkflow.class
+com/giggle/image/service/TaskQueueService.class
+com/giggle/image/GiggleImageApplication.class
+com/giggle/image/dto/TaskResponse.class

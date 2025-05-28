@@ -1,0 +1,37 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_REDIS_HOST=redis
+      - COMFYUI_SERVER_URL=http://comfyui:8188
+    depends_on:
+      - redis
+      - comfyui
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  comfyui:
+    build:
+      context: ./comfyui_custom_nodes
+      args:
+        HTTP_PROXY: "${HTTP_PROXY:-}"
+        HTTPS_PROXY: "${HTTPS_PROXY:-}"
+    networks:
+      - giggle-net
+
+networks:
+  giggle-net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1400
+
+volumes:
+  redis_data:
+  comfyui_models:

@@ -1,0 +1,11 @@
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/dto/TaskResponse.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/config/RestTemplateConfig.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/service/ComfyUIService.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/dto/ImageGenerationRequest.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/GiggleImageApplication.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/service/impl/ComfyUIServiceImpl.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/controller/ImageGenerationController.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/model/ComfyUIWorkflow.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/service/ComfyUIResultPoller.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/config/RedisConfig.java
+/Users/captain/projects/giggleImage/src/main/java/com/giggle/image/service/TaskQueueService.java
