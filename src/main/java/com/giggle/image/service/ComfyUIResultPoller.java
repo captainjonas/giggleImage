@@ -1,6 +1,5 @@
 package com.giggle.image.service;
 
-import com.giggle.image.service.TaskQueueService;
 import com.giggle.image.dto.TaskResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
